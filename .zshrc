@@ -6,7 +6,7 @@ setopt appendhistory autocd extendedglob nomatch
 bindkey -e
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
-zstyle :compinstall filename '/Users/olist/.zshrc'
+zstyle :compinstall filename '~/.zshrc'
 
 autoload -Uz compinit
 compinit
@@ -18,7 +18,7 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 # OH MY ZSH
 #
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/olist/.oh-my-zsh
+export ZSH=~/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -76,8 +76,8 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # export MANPATH="/usr/local/man:$MANPATH"
 export PATH="~/.rbenv/shims:/usr/local/sbin:$PATH"
 export PATH="/usr/local/opt/ccache/libexec:$PATH"
-export PATH="$PATH:/usr/local/bin:/Users/olist/bin"
-export PATH=$PATH:"/Users/olist/Library/Application Support/Alcatraz/Plug-ins/BBUncrustifyPlugin/Resources"
+export PATH="$PATH:/usr/local/bin:~/bin"
+export PATH=$PATH:"~/Library/Application Support/Alcatraz/Plug-ins/BBUncrustifyPlugin/Resources"
 export PATH=/Applications/CMake.app/Contents/bin:$PATH
 
 
